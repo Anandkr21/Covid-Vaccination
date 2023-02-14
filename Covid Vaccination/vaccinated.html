@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/vaccinated.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.2.3/jspdf.plugin.autotable.min.js"></script>
+
+    <title>Vaccinated</title>
+</head>
+<body>
+       <!-------------------------------- Navbar --------------------------->
+
+       <nav>
+        <div class="logo">
+        <a href="./registration.html"><img src="./image/india.png" alt=""></a>
+        </div>
+        <div>
+            <a href="./registration.html">
+                <h4>Register</h4>
+            </a>
+            <a href="./dashboard.html">
+                <h4>Dashboard</h4>
+            </a>
+            <a href="">
+                <h4>Vaccinated</h4>
+            </a>
+            <a href="">
+                <h4>FAQ</h4>
+            </a>
+            <a href="">
+            </a>
+        </div>
+    </nav>
+
+    <!--------------------------------------- Table  ---------------------------------->
+
+    <h1>Total Vaccinated: <span id="task-count"></span></h1>
+    <button class="button"><i class="fa fa-download"></i> Download PDF </button>
+     <table>
+        <thead>
+           <tr>
+              <th>Name</th>
+              <th>Unique ID</th>
+              <th>Age</th>
+              <th>Designation</th>
+              <th>Priority</th>
+              <th>Vaccine Type</th>
+              <th>Status</th>
+           </tr>
+        </thead>
+        <tbody>
+           <!-- Update the rows here using jsvascript -->
+        </tbody>
+     </table>
+
+     <!---------------------------- details section start here  ------------------>
+     
+     <h6>Frequently Asked Questions (FAQ)</h6>
+     <div class="detail">
+     <details>
+      <summary>1. Where can I register for COVID-19 vaccination?</summary>
+      <p>You can open the Co-WIN portal using the link www.cowin.gov.in and click on the “Register/Sign In” tab to register for COVID-19 vaccination, and follow the steps thereafter.</p>
+    </details>
+
+    <details>
+        <summary>2. Is there a mobile app that needs to be installed to register vaccination?
+        </summary> 
+        <p>There is no authorised mobile app for registering for vaccination in India except Aarogya Setu and Umang Apps. You need to log into the Co-WIN portal at cowin.gov.in. Alternatively, you can also register for vaccination through the Aarogya Setu App or Umang apps.</p>
+      </details>
+    
+    <details>
+      <summary>
+        3. Which age groups can register for vaccination on the Co-WIN portal?
+      </summary>
+      <p>All beneficiaries who have completed 12 years of age and above on the day of registration (birth year 2010 or earlier) can register for vaccination.
+      </p>
+    </details>
+
+    <details>
+      <summary>
+        4. Is online registration mandatory for COVID-19 vaccination?
+
+      </summary>
+      <p>No, vaccination centers provide for a limited number of on-spot registration slots every day. Beneficiaries can register online or walk-in to vaccination centers where the vaccination team staff can register a beneficiary. In general, all beneficiaries are recommended to register online and schedule vaccination in advance for a hassle-free vaccination experience.
+      </p>
+    </details>
+    
+    <details>
+      <summary>
+        5. How many people can be registered in the Co-WIN portal through one mobile number?
+      </summary>
+      <p>Up to 6 people can be registered for vaccination using the same mobile number.
+      </p>
+    </details>
+  </div>
+
+        <!------------------------------------footer --------------------------->
+
+    <footer>
+        <div class="bottom-fotter">
+            <div class="footer-logo">
+              <img src="https://prod-cdn.preprod.co-vin.in/state_v1/AN.png" alt="">
+            </div>
+            <div class="first">
+              <ul>
+                <li><strong>VACCINATION SERVICES</strong></li>
+                <li><a>Register Members</a></li>
+                <li><a>Search Vaccination Centers</a></li>
+                <li><a>Book Vaccination Slots</a></li>
+                <li><a>Manage Appointment</a></li>
+                <li><a>Download Certificate</a></li>
+              </ul>
+            </div>
+            <div class="second">
+              <ul>
+                <li><strong>PLATFORMS</strong></li>
+                <li><a>Vaccinator</a></li>
+                <li><a >Department Login</a></li>
+                <li><a>Crono Forum</a></li>
+                <li><a>Verify Certificates</a></li>
+                <li><a>Vaccination Statistics</a></li>
+              </ul>
+            </div>
+            <div class="third">
+              <ul>
+                <li><strong>SUPPORT</strong></li>
+                <li><a>Frequently Asked Questions</a></li>
+                <li><a>Certificate Corrections</a></li>
+              </ul>
+            </div>
+          </div>
+            <div class="bottom">
+              <p>Copyright © 2011-2022 <br>
+                All rights reserved</p>
+              </div>
+    </footer>
+</body>
+</html>
+
+
+<script src="./scripts/vaccinated.js"></script>

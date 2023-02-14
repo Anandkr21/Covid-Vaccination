@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/registration.css">
+
+
+    <title>Covid-19 Vaccination</title>
+</head>
+
+<body>
+    <!-------------------------------- Navbar --------------------------->
+
+    <nav>
+        <div class="logo">
+            <a href="./registration.html"><img src="./image/india.png" alt=""></a>
+        </div>
+        <div>
+            <a href="">
+                <h4 class="active">Register</h4>
+            </a>
+            <a href="dashboard.html">
+                <h4>Dashboard</h4>
+            </a>
+            <a href="vaccinated.html">
+                <h4>Vaccinated</h4>
+            </a>
+            <a href="">
+                <h4>FAQ</h4>
+            </a>
+            <a href="">
+            </a>
+        </div>
+    </nav>
+
+    <!---------------------------- Registration form  ------------------------>
+    <div class="main">
+        <div class="left-form">
+            <form action="" method="POST" id="myfrm">
+                
+                <label for="">Unique ID :</label><br />
+                <input id="uid" type="number" placeholder="Enter your Aadhar No." /><br />
+                <label for="">Enter Name :</label><br />
+                <input id="name" type="text" placeholder="Enter your Name" /><br />
+                <label for="">Age :</label>
+                <input id="age" type="number" placeholder="Enter your age" />
+                <br />
+                <label for="">Designation :</label><br>
+                
+                <input type="radio"  id="d1" name="designation" value="Student"> Student
+                <input type="radio" id="d1" name="designation" value="Employee"> Employee
+                       
+                <select id="priority">
+                    <option value="">-- Select Priority --</option>
+                    <option value="p0">P0</option>
+                    <option value="p1">P1</option>
+                    <option value="p2">P2</option>
+                    <option value="p3">P3</option>
+                </select><br />
+                <select id="vaccine">
+                    <option value="">-- Select Vaccine --</option>
+                    <option value="Covishild">Covishild</option>
+                    <option value="Covaxin">Covaxin</option>
+                    <option value="Sputnik">Sputnik</option>
+                </select><br />
+                <input type="submit" value="Submit"/>
+            </form>
+            
+        </div>
+        <div class="right">
+            <div class="slogan">
+                <h2>Historic & Unparalleled Achievement ! <br>
+                    India’s Glorious Journey of
+                </h2>
+                <div class="btn">
+                    <img src="https://www.cowin.gov.in/assets/images/verified.svg" alt="">
+                    <h3>200 CRORE VACCINATIONS</h3>
+                </div>
+                <p>"India is set to defeat Covid-19. Every Indian is making it possible."</p>
+                <p><i>- PM Narendra Modi</i></p>
+            </div>
+        </div>
+        <div class="flag">
+            <img src="https://www.cowin.gov.in/assets/images/independance.svg" alt="">
+        </div>
+    </div>
+
+    <!------------------------------- Total Vaccinate live  --------------------------->
+
+    <div class="vaccinated">
+        <div>
+            <h2>
+            Total Vaccination Doses<br>
+            <span class="doses"></span>
+            </h2>
+        </div>
+        <div>
+            <h2>
+                Vaccination Done Today<br>
+                <span class="regist"></span>
+            </h2>
+        </div>
+    </div>
+
+    <!-------------------------------- step to registration ------------------>
+    <div>
+        <h1>3 Easy Steps to Get Vaccinated</h1>
+    </div>
+    <div class="step">
+        <div class="template">
+            <img src="./image/Sign up-rafiki.png" alt="">
+            <h5>Step 1 <br> Registration</h5>
+        </div>
+        <div class="template">
+            <img src="./image/transistor-nurse-making-vaccination-injection-to-man.png" alt="">
+            <h5>Step 2 <br> Get Vaccination</h5>
+        </div>
+        <div class="template">
+            <img src="./image/Step_3.svg" alt="">
+            <h5>Step 3 <br> Download Certificate</h5>
+        </div>
+    </div>
+    <!------------------------------------footer --------------------------->
+    <footer>
+        <div class="bottom-fotter">
+            <div class="footer-logo">
+              <img src="https://prod-cdn.preprod.co-vin.in/state_v1/AN.png" alt="">
+            </div>
+            <div class="first">
+              <ul>
+                <li><strong>VACCINATION SERVICES</strong></li>
+                <li><a>Register Members</a></li>
+                <li><a>Search Vaccination Centers</a></li>
+                <li><a>Book Vaccination Slots</a></li>
+                <li><a>Manage Appointment</a></li>
+                <li><a>Download Certificate</a></li>
+              </ul>
+            </div>
+            <div class="second">
+              <ul>
+                <li><strong>PLATFORMS</strong></li>
+                <li><a>Vaccinator</a></li>
+                <li><a >Department Login</a></li>
+                <li><a>Crono Forum</a></li>
+                <li><a>Verify Certificates</a></li>
+                <li><a>Vaccination Statistics</a></li>
+              </ul>
+            </div>
+            <div class="third">
+              <ul>
+                <li><strong>SUPPORT</strong></li>
+                <li><a>Frequently Asked Questions</a></li>
+                <li><a>Certificate Corrections</a></li>
+              </ul>
+            </div>
+          </div>
+            <div class="bottom">
+              <p>Copyright © 2011-2022 <br>
+                All rights reserved</p>
+              </div>
+    </footer>
+</body>
+<script src="./scripts/registration.js"></script>
+</html>

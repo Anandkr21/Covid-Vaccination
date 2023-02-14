@@ -1,0 +1,306 @@
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+.logo>a>img{
+    margin-top: 0.5%;
+    width: 20%;
+    height: 90%;
+    padding: 0px 40px;
+
+}
+h4:hover{
+    border-bottom: 3px solid #fd5428;
+}
+nav{
+    background-color:  #017e7e;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+   
+    
+}
+nav div:nth-child(1){
+  
+    width: 100%;
+    height: auto;
+}
+nav div:nth-child(2){
+   
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    float: right;
+}
+nav div:nth-child(2)>a>h4{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+} 
+a{
+    text-decoration: none;
+}
+
+label{
+    /* color: #fd5428; */
+    letter-spacing: 1px;
+    font-family:serif;
+}
+.main{
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/id/1264736753/vector/grunge-vector-tricolour-background-with-an-off-white-centre-and-orange-or-saffron-and-green.jpg?s=612x612&w=0&k=20&c=R_fVpjTLC1btroBZQrlucIgmIMwjY524-s0T4oBjUxU=");
+
+    height: 550px;
+    display: flex;
+}
+
+.left-form{
+    background-image: url('https://www.shutterstock.com/image-illustration/beautiful-abstract-background-gradient-colors-indian-1975440881');
+    width: 50%;
+    height: 500px;
+    align-items: center;
+    
+    margin: 2% 1%;
+    border-radius: 20px;
+   
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+    form {
+    width: 90%;
+    margin: 0% 10%;
+    padding: 20px 0px;
+  }
+  
+  label {
+    font-size: 20px;
+  }
+
+  input[type="number"]{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    resize: vertical;
+    
+  }
+  
+  input[type="submit"] {
+    background-color:  #fd5428;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 90%;
+    font-size: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #fc4315;
+  }
+  .slogan{
+    margin: 20px 15px;
+  }
+
+  h2{
+   
+    width: 150%;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 53px;
+    color: #000;
+    font-family: Roboto Condensed,sans-serif;
+  }
+  .btn{
+    border: 5px solid #fd5428;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    margin: 10px 0 40px;
+    padding: 0px 0px;
+    width: 110%; 
+    text-transform: uppercase;
+
+   
+  }
+  img{
+    padding: 5px;
+  }
+  h3{
+    color: #fd5428;
+    padding: 0px 8px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Roboto Condensed,sans-serif;
+  }
+  p{
+    margin-top: 0px;
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 30px;
+  }
+  
+ 
+  
+  
+  .flag>img{
+    height: 99%;
+  }
+
+
+  .vaccinated{
+    width: 100%;
+    height: 100px;
+    background-color:#017e7e ;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .vaccinated h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    line-height: 35px;
+  }
+  .step{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+    gap: 20px;
+  }
+
+  .step>.template{
+    width: 30%;
+    height: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .step> .template>img{
+    width: 96%;
+    height: 70%;
+    
+  
+  }
+  h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #fc4315;
+    text-align: center;
+  }
+  .step> .template>h5{
+    font-size: 20px;
+    height: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #fc4315;
+    text-align: center;
+    
+  } 
+
+footer{
+    background-color:  #017e7e;
+}
+  
+.bottom-fotter{
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+    height: 250px;
+  
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  
+  .footer-logo>img{
+  width: 200px;
+  margin: 10px;
+  }
+  .footer-logo>img{
+    cursor: pointer;
+  }
+  
+  .first,.second,.third{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    
+  }
+  
+  .first>ul>li{
+  list-style-type: none;  
+  font-size: 17px;
+   
+    height: 40px;
+  }
+  .second>ul>li{
+    list-style-type: none;  
+    font-size: 17px;
+    
+      height: 40px;
+    }
+  .third>ul>li{
+    list-style-type: none;  
+    font-size: 17px;
+     
+      height: 40px;
+    }
+    .first>ul>li>a:hover{
+      cursor: pointer;
+      border-bottom: 2px solid  #fc4315;
+      
+    }
+    .second>ul>li>a:hover{
+      cursor: pointer;
+      border-bottom: 2px solid  #fc4315;
+    }
+    .third>ul>li>a:hover{
+      cursor: pointer;
+       border-bottom: 2px solid  #fc4315;
+    }
+  
+      .bottom{
+       
+        width: 90%;
+        margin: auto;
+        height: 100px;
+       
+        text-align: center;
+      }
+      .bottom>p{
+        font-size: 12px;
+        margin-top: 20px;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+      }
+  
+  

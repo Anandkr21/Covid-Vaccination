@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+       <!-------------------------------- Navbar --------------------------->
+
+       <nav>
+        <div class="logo">
+            <a href="./registration.html"><img src="./image/india.png" alt=""></a>
+        </div>
+        <div>
+            <a href="./registration.html">
+                <h4>Register</h4>
+            </a>
+            <a href="">
+                <h4>Dashboard</h4>
+            </a>
+            <a href="./vaccinated.html">
+                <h4>Vaccinated</h4>
+            </a>
+            <a href="">
+                <h4>FAQ</h4>
+            </a>
+            <a href="">
+            </a>
+        </div>
+    </nav>
+
+    <select id="filter" onchange="sortbyvaccine()" >
+        <option value="">--Sort by Vaccine--</option>
+        <option value="Covishild">Covishild</option>
+        <option value="Covaxin">Covaxin</option>
+        <option value="Sputnik">Sputnik</option>
+     </select>
+     <select id="sort">
+      <option value=""> --Sort by Name--</option>
+      <option value="atoz">A to Z</option>
+      <option value="ztoa">Z to A</option>
+   </select>
+
+   <input oninput="search()" type="text" id="myInput"  placeholder="Search by Name">
+   
+
+     <h1>Total Registration: <span id="task-count">0</span></h1>
+     <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Unique ID</th>
+                <th>Age</th>
+                <th>Designation</th>
+                <th>Priority</th>
+                <th>Vaccine Type</th>
+                <th>OTP</th>
+                <th>Vaccinate</th>
+                <th>Delete</th>
+             </tr>
+        </thead>
+        <tbody>
+           <!-- Update the rows here using jsvascript -->
+        </tbody>
+     </table>
+
+    <!------------------------------------footer --------------------------->
+
+  <footer>
+    <div class="bottom-fotter">
+        <div class="footer-logo">
+          <img src="https://prod-cdn.preprod.co-vin.in/state_v1/AN.png" alt="">
+        </div>
+        <div class="first">
+          <ul>
+            <li><strong>VACCINATION SERVICES</strong></li>
+            <li><a>Register Members</a></li>
+            <li><a>Search Vaccination Centers</a></li>
+            <li><a>Book Vaccination Slots</a></li>
+            <li><a>Manage Appointment</a></li>
+            <li><a>Download Certificate</a></li>
+          </ul>
+        </div>
+        <div class="second">
+          <ul>
+            <li><strong>PLATFORMS</strong></li>
+            <li><a>Vaccinator</a></li>
+            <li><a >Department Login</a></li>
+            <li><a>Crono Forum</a></li>
+            <li><a>Verify Certificates</a></li>
+            <li><a>Vaccination Statistics</a></li>
+          </ul>
+        </div>
+        <div class="third">
+          <ul>
+            <li><strong>SUPPORT</strong></li>
+            <li><a>Frequently Asked Questions</a></li>
+            <li><a>Certificate Corrections</a></li>
+          </ul>
+        </div>
+      </div>
+        <div class="bottom">
+          <p>Copyright © 2011-2022 <br>
+            All rights reserved</p>
+          </div>
+</footer>
+</body>
+</html>
+
+<script src="./scripts/dashboard.js"></script>
