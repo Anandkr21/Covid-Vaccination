@@ -24,7 +24,7 @@ Users can click on navbar to get more information about website. User can regist
 - Registration
 - Filter by Name
 - Filter by Vaccine
-- Deletition
+- Deletion
 - Download PDF
 - FAQ section
 
