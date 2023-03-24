@@ -2,7 +2,7 @@
 
 # Covid-19 Vaccination Website  <a href="https://stalwart-tapioca-a93bc5.netlify.app/index.html">Live View</a>
 
-This website is made for <a href="https://stalwart-tapioca-a93bc5.netlify.app/index.html">Covid-19 Vaccination</a> so that people can vaccinate and prevent theirself and stop spreading Corona Virus to others.
+This website is made for <a href="https://stalwart-tapioca-a93bc5.netlify.app/">Covid-19 Vaccination</a> so that people can vaccinate and prevent theirself and stop spreading Corona Virus to others.
 
 Users can click on navbar to get more information about website. User can register and login on this website.
 
@@ -16,7 +16,7 @@ Users can click on navbar to get more information about website. User can regist
 6. Go Vaccinated page and Download PDF
 
 
-**_Visit [here](https://stalwart-tapioca-a93bc5.netlify.app/index.html/)._**
+**_Visit [here](https://stalwart-tapioca-a93bc5.netlify.app/)._**
 
 
 ## Features
