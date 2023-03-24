@@ -1,6 +1,6 @@
 
 
-# Covid-19 Vaccination Website  <a href="https://stalwart-tapioca-a93bc5.netlify.app/index.html">Live View</a>
+# Covid-19 Vaccination Website  <a href="https://stalwart-tapioca-a93bc5.netlify.app/">Live View</a>
 
 This website is made for <a href="https://stalwart-tapioca-a93bc5.netlify.app/">Covid-19 Vaccination</a> so that people can vaccinate and prevent theirself and stop spreading Corona Virus to others.
 
