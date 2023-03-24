@@ -16,7 +16,7 @@ Users can click on navbar to get more information about website. User can regist
 6. Go Vaccinated page and Download PDF
 
 
-**_Visit [here](https://stalwart-tapioca-a93bc5.netlify.app/)._**
+**_Visit here [click](https://stalwart-tapioca-a93bc5.netlify.app/)._**
 
 
 ## Features
