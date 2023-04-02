@@ -11,7 +11,7 @@ function display(done){
         let row = document.createElement('tr')
 
         let uniqe = document.createElement('td')
-        uniqe.innerText = el.uniqe;
+        uniqe.innerText = el.id;
 
         let name =document.createElement('td')
         name.textContent = el.name;
@@ -20,13 +20,13 @@ function display(done){
         age.textContent = el.age;
 
         let d =document.createElement('td')
-        d.textContent = el.desig;
+        d.textContent = el.designation;
 
         let priority = document.createElement('td')
         priority.textContent = el.priority;
 
         let select = document.createElement('td')
-        select.innerText = el.select;
+        select.innerText = el.vaccine;
 
         let v  = document.createElement('td')
         v.setAttribute('class', 'vaccinebtn'); 
