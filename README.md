@@ -1,10 +1,10 @@
 
 
-# Covid-19 Vaccination Website  <a href="https://prismatic-phoenix-26d835.netlify.app/">Live View</a>
+# Covid-19 Vaccination Website  <a href="https://graceful-pie-7f2ccf.netlify.app/">Live View</a>
 
-This website is made for <a href="https://prismatic-phoenix-26d835.netlify.app/">Covid-19 Vaccination</a> so that people can vaccinate and prevent theirself and stop spreading Corona Virus to others.
+This website is made for <a href="https://graceful-pie-7f2ccf.netlify.app/">Covid-19 Vaccination</a> so that people can vaccinate and prevent their self and stop spreading Corona Virus to others.
 
-Users can click on navbar to get more information about website. User can register and login on this website.
+Users can click on navbar to get more information about website and also can Register and Login on this website.
 
 ## Follow some simple steps for vaccination:-
 
@@ -13,10 +13,10 @@ Users can click on navbar to get more information about website. User can regist
 3. Click on vaccinate
 4. Enter OTP and wait for some time
 5. After 10-12 sec. it will pop up that you are successfully vaccinated
-6. Go Vaccinated page and Download PDF
+6. Go to Vaccinated page and Download PDF
 
 
-**_Visit here 👉 [click](https://prismatic-phoenix-26d835.netlify.app/)._**
+**_Visit here 👉 [click](https://graceful-pie-7f2ccf.netlify.app/)._**
 
 
 ## Features
@@ -36,7 +36,8 @@ Users can click on navbar to get more information about website. User can regist
 
 <p align="center">The Registration Page displays a complete overview of the website. The features and links to the whole page.</p>
 
-![2023-02-21T22_46_49](https://user-images.githubusercontent.com/113422735/220415009-3de8a5c8-a792-452c-9ad3-95ba6293b428.png)
+![registration](https://user-images.githubusercontent.com/113422735/229343335-5706f8d2-4a3d-4fcd-a8e0-04e48289135d.png)
+
 
 
 
@@ -51,13 +52,15 @@ Users can click on navbar to get more information about website. User can regist
 <h2 align="center">Dashboard</h2>
 <p align="center">Here we can see all the people who have done their registration and waiting for vaccination</p>
 
-![2023-02-21T22_46_37](https://user-images.githubusercontent.com/113422735/220415079-51d63b88-e87e-4bff-8a87-a62eae3a9009.png)
+![dashboard](https://user-images.githubusercontent.com/113422735/229343365-adcee033-4ef9-495b-8e7b-19ff9e6447ff.png)
+
+
 
 <br>
 <h2 align="center">Vaccinated Page</h2>
 <p align="center">All the is here who have Vaccinated Successfully and PDF data can be download.</p>
 
-![2023-02-21T22_46_32](https://user-images.githubusercontent.com/113422735/220415103-0e852b9f-a00d-485c-a9d4-83e7f30f74e1.png)
+![vaccinated](https://user-images.githubusercontent.com/113422735/229343359-ee2f08d9-5dd9-4025-a180-ce7ae05f2e0b.png)
 
 
 
